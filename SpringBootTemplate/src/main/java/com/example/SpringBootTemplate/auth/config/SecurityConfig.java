@@ -27,6 +27,8 @@ public class SecurityConfig {
 
     //개발용
     private static final String[] AUTH_WHITELIST = {
+//            "/api/auth/signup", // 회원가입
+//            "/api/auth/signin", // 로그인
         "/auth/signup", //회원가입
         "/auth/signin", //로그인
     };
